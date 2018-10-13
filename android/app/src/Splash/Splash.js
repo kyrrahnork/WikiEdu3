@@ -19,7 +19,7 @@ export default class BackgroundImage extends Component{
     <View
         style={{
         flex: 1,
-        backgroundColor: '#BE6CE2',
+        backgroundColor: '#000',
         }}
     >
         <View
