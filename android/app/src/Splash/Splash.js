@@ -53,7 +53,13 @@ export default class BackgroundImage extends Component{
           }}
         >
           <Button
-            title='press to begin'
+            title='press to login with Wikipedia'
+            onPress={()=> this.props.navigation.navigate('Start')}
+          >
+          </Button>
+          
+          <Button
+            title='press to create account'
             onPress={()=> this.props.navigation.navigate('Start')}
           >
           </Button>
